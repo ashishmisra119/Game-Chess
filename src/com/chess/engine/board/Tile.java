@@ -1,3 +1,6 @@
+package com.chess.engine.board;
+import com.chess.engine.pieces.Piece;
+
 
 public abstract class Tile {
 	
@@ -32,7 +35,7 @@ public abstract class Tile {
  		
  		@Override
  		public Piece getPiece() {
- 			return this.pieceOnTile;
+ 			return this.pieceOnTile; 
  		}
  		
  	}
